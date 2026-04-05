@@ -11,7 +11,7 @@
 **Summative demo (camera on, GUI + objective/rewards explained):**  
 [https://youtu.be/7P_V84w7MdE](https://youtu.be/7P_V84w7MdE)
 
-The recording should show **full screen**, **Pygame dashboard**, and **terminal** output (`play.py` / `main.py`), and state the **mission objective**, **reward structure**, and **agent behavior** (see checklist below).
+The recording should show **full screen**, **Pygame dashboard**, and **terminal** output (`play.py` / `main.py`), and state the **mission objective**, **reward structure**, and **agent behavior**.
 
 ---
 
@@ -160,29 +160,3 @@ python demos/static_random_demo.py
 ```
 
 Writes `demos/output/random_agent_kulima_pipeline.gif`.
-
----
-
-## Video / submission checklist
-
-- [ ] Link live: [Demonstration on YouTube](https://youtu.be/7P_V84w7MdE)
-- [ ] Full screen, camera on if required
-- [ ] State **objective** (diagnosis → climate → market under uncertainty)
-- [ ] Explain **rewards** (milestones, penalties, completion/failure)
-- [ ] Show **Pygame** + **terminal** verbose
-- [ ] Interpret **policy** vs random / naive sequencing
-
----
-
-## References *(short)*
-
-- Mnih *et al.* (2015). Human-level control through deep RL. *Nature*. [DOI](https://doi.org/10.1038/nature14236)
-- Schulman *et al.* (2017). PPO. [arXiv](https://arxiv.org/abs/1707.06347)
-- Sutton & Barto (2018). *Reinforcement Learning: An Introduction*. MIT Press.
-- [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) · [Gymnasium](https://github.com/Farama-Foundation/Gymnasium)
-
----
-
-## License
-
-Educational use — capstone / summative assignment.
