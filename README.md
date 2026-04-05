@@ -15,16 +15,6 @@ The recording should show **full screen**, **Pygame dashboard**, and **terminal*
 
 ---
 
-## Full written report
-
-A **~10-page** summative document (abstract, methods, filled hyperparameter tables, results, convergence & generalization tables, ethics) lives in:
-
-**[`RL_Summative_Assignment_Report.md`](RL_Summative_Assignment_Report.md)**
-
-Use it as the source for submission PDF/Word; this README is the **project landing page** with the same narrative in shorter form.
-
----
-
 ## Problem and approach
 
 Smallholder-facing stacks must **sequence** expensive steps—on-device inference, **API** calls (weather, listings), notifications, **human escalation**—under **bandwidth, battery, and risk**. Fixed rules break when **noise is correlated** and **rewards are delayed**.
@@ -64,14 +54,14 @@ Training logs: TensorBoard under each run, **`metrics.jsonl`** (SB3), **`reinfor
 
 ---
 
-## Results snapshot *(from saved `summary.json` — see report for tables)*
+## Results snapshot *(from saved `summary.json` / run summaries under `models/`)*
 
 - **Highest mean eval (40k-step SB3 runs):** **DQN run 6** ≈ **96.15**; **A2C** runs **2 / 5 / 8** ≈ **96.0**.
 - **Best REINFORCE (last-50-episode mean):** **run 4** ≈ **94.10** (high variance across other rows).
 - **PPO pilot sweep** (shorter budget per run): best **run 5** ≈ **81.23** — **re-run PPO** with the same `RL_TIMESTEPS` as DQN/A2C for a fair comparison.
 - **Checkpoint vs env:** Many **DQN / A2C / REINFORCE** artifacts were trained with **11-D** policies; **`KulimaProductionEnv` is 18-D**. For **`play.py` on the current env**, use a policy trained on **18-D** (e.g. **PPO** after your latest sweep) until everything is retrained.
 
-**Generalization (example):** Measured **PPO** on 18-D: baseline mean return **~78.8**, under `dynamics_shift=1.25` **~57.9** (~**26.5%** drop). See report §6.2 for full table and scaling notes for other algorithms.
+**Generalization (example):** Measured **PPO** on 18-D: baseline mean return **~78.8**, under `dynamics_shift=1.25` **~57.9** (~**26.5%** drop). Run `analysis/generalization_eval.py` for your own table; other algorithms need retraining on 18-D for comparable numbers.
 
 ---
 
@@ -98,7 +88,6 @@ KulimaIQ_Summative/
 ├── models/                        # checkpoints + summary JSON (gitignored patterns may apply)
 ├── demos/
 ├── diagrams/
-├── RL_Summative_Assignment_Report.md
 ├── main.py
 ├── play.py                        # rubric demo entry (= main CLI)
 ├── api_server.py                  # optional FastAPI JSON API
