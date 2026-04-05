@@ -1,8 +1,8 @@
-# sage_muhodari_rl_summative
+# KulimaIQ_Summative
 
 **KulimaIQ-inspired reinforcement learning summative:** four algorithms (**DQN**, **REINFORCE**, **PPO**, **A2C**) on a custom **Gymnasium** environment that models a **production-style agricultural pipeline**—edge diagnosis, climate/forecast integration, and market listing—under **stochastic** dynamics (no grid-world abstraction).
 
-> **GitHub:** name the repo `sage_muhodari_rl_summative` (or `firstname_lastname_rl_summative` per your course) and push this folder.
+> **GitHub:** publish this project as repository **`KulimaIQ_Summative`** (URL: `https://github.com/<your-username>/KulimaIQ_Summative`). After `git clone`, work from that folder.
 
 ---
 
@@ -78,7 +78,7 @@ Training logs: TensorBoard under each run, **`metrics.jsonl`** (SB3), **`reinfor
 ## Project layout
 
 ```
-sage_muhodari_rl_summative/
+KulimaIQ_Summative/
 ├── environment/
 │   ├── kulima_production_env.py   # primary MDP
 │   ├── custom_env.py              # legacy grid env
@@ -111,7 +111,7 @@ sage_muhodari_rl_summative/
 ## Install
 
 ```bash
-cd sage_muhodari_rl_summative
+cd KulimaIQ_Summative
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
