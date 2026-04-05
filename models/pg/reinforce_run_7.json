@@ -1,0 +1,13 @@
+{
+  "algorithm": "REINFORCE",
+  "run_id": 7,
+  "cfg": {
+    "lr": 0.0008,
+    "hidden": 256,
+    "gamma": 0.985,
+    "entropy_coef": 0.0
+  },
+  "episodes": 200,
+  "mean_return_last_50": 3.855800000000012,
+  "checkpoint": "/Users/sagemuhodari/Documents/LUA/capstone/sage_muhodari_rl_summative/models/pg/reinforce_run_7.pt"
+}

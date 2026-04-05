@@ -1,0 +1,17 @@
+{
+  "algo": "ppo",
+  "run_id": 1,
+  "cfg": {
+    "learning_rate": 0.0001,
+    "n_steps": 2048,
+    "batch_size": 128,
+    "gamma": 0.995,
+    "gae_lambda": 0.92,
+    "clip_range": 0.15,
+    "ent_coef": 0.01,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5
+  },
+  "best_model": "/Users/sagemuhodari/Documents/LUA/capstone/sage_muhodari_rl_summative/models/pg/ppo/run_1/best_model.zip",
+  "mean_eval": 54.307500000000005
+}

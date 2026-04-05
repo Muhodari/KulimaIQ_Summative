@@ -1,0 +1,18 @@
+{"timestep": 256, "n_calls": 256}
+{"timestep": 512, "n_calls": 512}
+{"timestep": 768, "n_calls": 768}
+{"timestep": 1024, "n_calls": 1024}
+{"timestep": 1280, "n_calls": 1280}
+{"timestep": 1536, "n_calls": 1536}
+{"timestep": 1792, "n_calls": 1792, "train/learning_rate": 0.0004, "train/entropy_loss": -2.293777619302273, "train/policy_gradient_loss": -0.02811878621329622, "train/value_loss": 38.18014833927155, "train/approx_kl": 0.011904537677764893, "train/clip_fraction": 0.14726562444120644, "train/loss": 11.001727104187012, "train/explained_variance": 0.013525724411010742, "train/n_updates": 10.0, "train/clip_range": 0.18}
+{"timestep": 2048, "n_calls": 2048}
+{"timestep": 2304, "n_calls": 2304}
+{"timestep": 2560, "n_calls": 2560}
+{"timestep": 2816, "n_calls": 2816}
+{"timestep": 3072, "n_calls": 3072}
+{"timestep": 3328, "n_calls": 3328, "train/learning_rate": 0.0004, "train/entropy_loss": -2.271939527988434, "train/policy_gradient_loss": -0.026505850517226738, "train/value_loss": 19.535939472913743, "train/approx_kl": 0.020794250071048737, "train/clip_fraction": 0.11093749983119779, "train/loss": 2.7890021800994873, "train/explained_variance": 0.09603732824325562, "train/n_updates": 20.0, "train/clip_range": 0.18}
+{"timestep": 3584, "n_calls": 3584, "train/learning_rate": 0.0004, "train/entropy_loss": -2.271939527988434, "train/policy_gradient_loss": -0.026505850517226738, "train/value_loss": 19.535939472913743, "train/approx_kl": 0.020794250071048737, "train/clip_fraction": 0.11093749983119779, "train/loss": 2.7890021800994873, "train/explained_variance": 0.09603732824325562, "train/n_updates": 20.0, "train/clip_range": 0.18}
+{"timestep": 3840, "n_calls": 3840, "train/learning_rate": 0.0004, "train/entropy_loss": -2.271939527988434, "train/policy_gradient_loss": -0.026505850517226738, "train/value_loss": 19.535939472913743, "train/approx_kl": 0.020794250071048737, "train/clip_fraction": 0.11093749983119779, "train/loss": 2.7890021800994873, "train/explained_variance": 0.09603732824325562, "train/n_updates": 20.0, "train/clip_range": 0.18}
+{"timestep": 4096, "n_calls": 4096}
+{"timestep": 4352, "n_calls": 4352}
+{"timestep": 4608, "n_calls": 4608}

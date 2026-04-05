@@ -1,0 +1,14 @@
+# KulimaIQ mission RL summative — Python 3.10+ recommended
+gymnasium>=0.29.1
+stable-baselines3>=2.3.0
+shimmy>=0.2.1
+torch>=2.0.0
+numpy>=1.24.0
+pygame>=2.5.0
+imageio>=2.33.0
+matplotlib>=3.8.0
+tensorboard>=2.15.0
+rich>=13.0.0
+tqdm>=4.66.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0

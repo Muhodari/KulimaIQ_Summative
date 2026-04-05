@@ -1,0 +1,14 @@
+.venv/
+.venv_report/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.zip
+*.pt
+models/**/tb/
+models/**/*.zip
+models/**/*.pt
+models/**/evaluations.npz
+models/**/monitor.*
+demos/output/
+.DS_Store

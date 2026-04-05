@@ -1,0 +1,16 @@
+{"timestep": 256, "n_calls": 256}
+{"timestep": 512, "n_calls": 512}
+{"timestep": 768, "n_calls": 768}
+{"timestep": 1024, "n_calls": 1024}
+{"timestep": 1280, "n_calls": 1280}
+{"timestep": 1536, "n_calls": 1536}
+{"timestep": 1792, "n_calls": 1792}
+{"timestep": 2048, "n_calls": 2048}
+{"timestep": 2304, "n_calls": 2304, "train/learning_rate": 0.0001, "train/entropy_loss": -2.3000267848372458, "train/policy_gradient_loss": -0.01484030441788491, "train/value_loss": 87.16210680007934, "train/approx_kl": 0.004410191439092159, "train/clip_fraction": 0.074267578125, "train/loss": 37.77183532714844, "train/explained_variance": -0.0036156177520751953, "train/n_updates": 10.0, "train/clip_range": 0.15}
+{"timestep": 2560, "n_calls": 2560, "train/learning_rate": 0.0001, "train/entropy_loss": -2.3000267848372458, "train/policy_gradient_loss": -0.01484030441788491, "train/value_loss": 87.16210680007934, "train/approx_kl": 0.004410191439092159, "train/clip_fraction": 0.074267578125, "train/loss": 37.77183532714844, "train/explained_variance": -0.0036156177520751953, "train/n_updates": 10.0, "train/clip_range": 0.15}
+{"timestep": 2816, "n_calls": 2816, "train/learning_rate": 0.0001, "train/entropy_loss": -2.3000267848372458, "train/policy_gradient_loss": -0.01484030441788491, "train/value_loss": 87.16210680007934, "train/approx_kl": 0.004410191439092159, "train/clip_fraction": 0.074267578125, "train/loss": 37.77183532714844, "train/explained_variance": -0.0036156177520751953, "train/n_updates": 10.0, "train/clip_range": 0.15}
+{"timestep": 3072, "n_calls": 3072, "train/learning_rate": 0.0001, "train/entropy_loss": -2.3000267848372458, "train/policy_gradient_loss": -0.01484030441788491, "train/value_loss": 87.16210680007934, "train/approx_kl": 0.004410191439092159, "train/clip_fraction": 0.074267578125, "train/loss": 37.77183532714844, "train/explained_variance": -0.0036156177520751953, "train/n_updates": 10.0, "train/clip_range": 0.15}
+{"timestep": 3328, "n_calls": 3328, "train/learning_rate": 0.0001, "train/entropy_loss": -2.3000267848372458, "train/policy_gradient_loss": -0.01484030441788491, "train/value_loss": 87.16210680007934, "train/approx_kl": 0.004410191439092159, "train/clip_fraction": 0.074267578125, "train/loss": 37.77183532714844, "train/explained_variance": -0.0036156177520751953, "train/n_updates": 10.0, "train/clip_range": 0.15}
+{"timestep": 3584, "n_calls": 3584, "train/learning_rate": 0.0001, "train/entropy_loss": -2.3000267848372458, "train/policy_gradient_loss": -0.01484030441788491, "train/value_loss": 87.16210680007934, "train/approx_kl": 0.004410191439092159, "train/clip_fraction": 0.074267578125, "train/loss": 37.77183532714844, "train/explained_variance": -0.0036156177520751953, "train/n_updates": 10.0, "train/clip_range": 0.15}
+{"timestep": 3840, "n_calls": 3840, "train/learning_rate": 0.0001, "train/entropy_loss": -2.3000267848372458, "train/policy_gradient_loss": -0.01484030441788491, "train/value_loss": 87.16210680007934, "train/approx_kl": 0.004410191439092159, "train/clip_fraction": 0.074267578125, "train/loss": 37.77183532714844, "train/explained_variance": -0.0036156177520751953, "train/n_updates": 10.0, "train/clip_range": 0.15}
+{"timestep": 4096, "n_calls": 4096}

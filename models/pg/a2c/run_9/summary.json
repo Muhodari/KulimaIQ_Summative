@@ -1,0 +1,15 @@
+{
+  "algo": "a2c",
+  "run_id": 9,
+  "cfg": {
+    "learning_rate": 0.00025,
+    "n_steps": 5,
+    "gamma": 0.993,
+    "gae_lambda": 1.0,
+    "ent_coef": 0.008,
+    "vf_coef": 0.48,
+    "max_grad_norm": 0.55
+  },
+  "best_model": "/Users/sagemuhodari/Documents/LUA/capstone/sage_muhodari_rl_summative/models/pg/a2c/run_9/best_model.zip",
+  "mean_eval": -4.007999999999999
+}

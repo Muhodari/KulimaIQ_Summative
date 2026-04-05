@@ -1,0 +1,15 @@
+{
+  "run_id": 7,
+  "cfg": {
+    "learning_rate": 5e-05,
+    "buffer_size": 150000,
+    "batch_size": 64,
+    "gamma": 0.995,
+    "train_freq": 4,
+    "target_update_interval": 3000,
+    "exploration_fraction": 0.18,
+    "exploration_final_eps": 0.05
+  },
+  "best_model": "/Users/sagemuhodari/Documents/LUA/capstone/sage_muhodari_rl_summative/models/dqn/run_7/best_model.zip",
+  "mean_eval": 96.0
+}
